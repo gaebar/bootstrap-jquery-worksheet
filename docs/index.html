@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Linking custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap 5 and jQuery</title>
+</head>
+
+<body>
+    <p class="text-center my-header mt-5">Bootstrap and JS/jQuery Worksheet</p>
+    <h2 class="text-center my-header mt-5">Week 0 Class Work</h2>
+
+    <!-- New external container -->
+    <div class="custom-container mt-5 mx-auto">
+
+        <!-- Squares container -->
+        <div class="container">
+            <div class="row">
+                <!-- Red Square -->
+                <div class="col-4">
+                    <div class="bg-danger square border border-dark border-5"></div>
+                </div>
+                <!-- Blue Square -->
+                <div class="col-4">
+                    <div class="bg-primary square yellow-dashed-border border-5"></div>
+                </div>
+                <!-- Green Square -->
+                <div class="col-4">
+                    <div class="bg-success square border purple-border border-5"></div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center my-header mt-5 text-success">Change Buttons</h3>
+
+        <!-- Buttons container -->
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Button 1 -->
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="changeBox1">Change Box 1</button>
+                </div>
+                <!-- Button 2 -->
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="changeBox2">Change Box 2</button>
+                </div>
+                <!-- Button 3 -->
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="changeBox3">Change Box 3</button>
+                </div>
+                <!-- Button 4 (Change All) -->
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="changeAll">Change All</button>
+                </div>
+            </div>
+
+            <p class="text-center my-header mt-5 text-danger">Hide Buttons</p>
+
+            <div class="row mt-5">
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="hideBox1">Hide Box 1</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="hideBox2">Hide Box 2</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="hideBox3">Hide Box 3</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="hideAllBoxes">Hide All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Reset Color Button on the far left -->
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="resetColor">Reset Color</button>
+                </div>
+                <!-- Space in the middle, this can be adjusted as needed -->
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <!-- Show All Button on the far right -->
+                <div class="col-3">
+                    <button class="btn btn-secondary w-100" id="showAllBoxes">Show All</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Link to the external script.js file -->
+        <script src="script.js"></script>
+    </body>
+
+</html>
