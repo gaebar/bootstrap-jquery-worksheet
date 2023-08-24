@@ -22,12 +22,12 @@
 }
 
 div.purple-border {
-    border-color: #ed05ed !important;
+    border-color: #ff70ff !important;
 }
 
 .yellow-dashed-border {
     border-style: dashed;
-    border-color: #fafa00;
+    border-color: #ffff0a;
 }
 
 
@@ -37,14 +37,35 @@ div.purple-border {
     margin-right: auto;
 }
 
+.custom-red {
+    background-color: #ff0000;
+}
+
+.custom-blue {
+    background-color: #0000ff;
+}
+
+.custom-green {
+    background-color: #00ff00;
+}
+
+.text-success {
+    color: #60b872 !important;
+}
+
+.text-danger {
+    color: #ff0303 !important;
+}
+
+
 .btn-custom {
-    background-color: lightgrey;
-    color: black;
+    background-color: #cccccc;
+    color: #3e3e3e;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active {
-    background-color: lightgrey;
-    color: black;
-    border-color: black;
+    background-color: #cccccc;
+    color: #3e3e3e;
+    border-color: #3e3e3e;
     box-shadow: none; /* To remove the shadow on active/focus states */
 }
