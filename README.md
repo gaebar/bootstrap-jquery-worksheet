@@ -2,7 +2,7 @@
 
 Try your hand at re-creating the layout in the picture provided. The main layout will be created using HTML, CSS and/or Bootstrap. Functionality should be added using Javascript and/or jQuery. (jQuery is optional)
 
-Functionality Instructions:
+## Functionality Instructions:
 
 - “Change Box 1” button should change the color and border of box 1 when clicked
 - “Change Box 2” button should change the color and border of box 2 when clicked
@@ -15,10 +15,18 @@ Functionality Instructions:
 - “Reset Colors” button should reset the colors of each box to reflect the original colors in the image when clicked
 - “Show All” button should show all boxes in their original locations according to the image
 
-Unit Testing
+<br>
+
+<p align="center">
+  <img src="bootstrap-jquery-worksheet.png" alt="Alt text for the image" width="500"/>
+</p>
+
+<br>
+
+# Unit Testing
 
 Your instructor will grade your assignment by clicking on 4 random buttons. 3 of the 4 buttons must work to successfully complete the coding challenge
 
-Please submit your repository link and the GitHub Pages URL. 
+Please submit your repository link and the GitHub Pages URL.
 
 We will use this to verify the functionality of the assignment.
