@@ -22,12 +22,12 @@
 }
 
 div.purple-border {
-    border-color: purple !important;
+    border-color: #ed05ed !important;
 }
 
 .yellow-dashed-border {
     border-style: dashed;
-    border-color: yellow;
+    border-color: #fafa00;
 }
 
 
@@ -35,4 +35,16 @@ div.purple-border {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn-custom {
+    background-color: lightgrey;
+    color: black;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active {
+    background-color: lightgrey;
+    color: black;
+    border-color: black;
+    box-shadow: none; /* To remove the shadow on active/focus states */
 }
