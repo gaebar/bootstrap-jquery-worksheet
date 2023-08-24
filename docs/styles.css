@@ -12,24 +12,22 @@
     bottom: 0;
 }
 
-
 .my-header {
     text-decoration: underline;
 }
 
 .border-5 {
-    border-width: 5px !important;
+    border-width: 5px;
 }
 
 div.purple-border {
-    border-color: #ff70ff !important;
+    border-color: #ff70ff;
 }
 
 .yellow-dashed-border {
     border-style: dashed;
     border-color: #ffff0a;
 }
-
 
 .custom-container {
     max-width: 60%;
@@ -50,22 +48,32 @@ div.purple-border {
 }
 
 .text-success {
-    color: #60b872 !important;
+    color: #00ff00;
 }
 
 .text-danger {
-    color: #ff0303 !important;
+    color: #ff0303;
 }
-
 
 .btn-custom {
     background-color: #cccccc;
-    color: #3e3e3e;
+    color: #000000;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active {
     background-color: #cccccc;
     color: #3e3e3e;
     border-color: #3e3e3e;
-    box-shadow: none; /* To remove the shadow on active/focus states */
+    box-shadow: none;
+}
+
+
+.box1 {
+    border-color: #000000;  /* Default border color for box1 */
+    border-style: solid;
+}
+
+.box3 {
+    border-color: #ff70ff;  /* Default border color for box3 */
+    border-style: solid;
 }

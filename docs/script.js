@@ -11,47 +11,57 @@ $(document).ready(function() {
 
     // Change Box 1
     $("#changeBox1").click(function() {
-        let randomColor = getRandomColor();
+        let bgColor = getRandomColor();
+        let borderColor = getRandomColor();
         $(".box1").css({
-            "background-color": randomColor,
-            "border-color": getRandomColor()
+            "background-color": bgColor,
+            "border-color": borderColor
         });
     });
 
     // Change Box 2
     $("#changeBox2").click(function() {
-        let randomColor = getRandomColor();
+        let bgColor = getRandomColor();
+        let borderColor = getRandomColor();
         $(".box2").css({
-            "background-color": randomColor,
-            "border-color": getRandomColor()
+            "background-color": bgColor,
+            "border-color": borderColor
         });
     });
 
     // Change Box 3
     $("#changeBox3").click(function() {
-        let randomColor = getRandomColor();
+        let bgColor = getRandomColor();
+        let borderColor = getRandomColor();
         $(".box3").css({
-            "background-color": randomColor,
-            "border-color": getRandomColor()
+            "background-color": bgColor,
+            "border-color": borderColor
         });
     });
 
     // Change All Boxes
-$("#changeAll").click(function() {
-    $(".box1").css({
-        "background-color": getRandomColor(),
-        "border-color": getRandomColor()
-    });
-    $(".box2").css({
-        "background-color": getRandomColor(),
-        "border-color": getRandomColor()
-    });
-    $(".box3").css({
-        "background-color": getRandomColor(),
-        "border-color": getRandomColor()
-    });
-});
+    $("#changeAll").click(function() {
+        let bgColor1 = getRandomColor();
+        let borderColor1 = getRandomColor();
+        $(".box1").css({
+            "background-color": bgColor1,
+            "border-color": borderColor1
+        });
 
+        let bgColor2 = getRandomColor();
+        let borderColor2 = getRandomColor();
+        $(".box2").css({
+            "background-color": bgColor2,
+            "border-color": borderColor2
+        });
+
+        let bgColor3 = getRandomColor();
+        let borderColor3 = getRandomColor();
+        $(".box3").css({
+            "background-color": bgColor3,
+            "border-color": borderColor3
+        });
+    });
 
     // Hide Box 1 (Using 'visibility' to keep space)
     $('#hideBox1').click(function() {
@@ -76,16 +86,16 @@ $("#changeAll").click(function() {
     // Reset Colors of All Boxes
     $("#resetColor").click(function() {
         $(".box1").css({
-            "background-color": "red",
-            "border-color": "#000"
+            "background-color": "#ff0000",
+            "border-color": "#000000"
         });
         $(".box2").css({
-            "background-color": "blue",
+            "background-color": "#0000ff",
             "border-color": "#fafa00"
         });
         $(".box3").css({
-            "background-color": "green",
-            "border-color": "#ed05ed"
+            "background-color": "#00ff00",
+            "border-color": "#ff70ff"
         });
     });
 
