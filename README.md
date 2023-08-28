@@ -1,5 +1,7 @@
 # TechBridge Coding Challenge
 
+See the game online at https://gaebar.github.io/bootstrap-jquery-worksheet/
+
 Try your hand at re-creating the layout in the picture provided. The main layout will be created using HTML, CSS and/or Bootstrap. Functionality should be added using Javascript and/or jQuery. (jQuery is optional)
 
 ## Functionality Instructions:
